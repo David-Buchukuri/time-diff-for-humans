@@ -1,0 +1,22 @@
+{
+  "name": "time-diff-for-humans",
+  "version": "1.0.0",
+  "description": "get difference between 2 dates in human readable format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Buchukuri/time-diff-for-humans.git"
+  },
+  "keywords": [
+    "datediff"
+  ],
+  "author": "David Buchukuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Buchukuri/time-diff-for-humans/issues"
+  },
+  "homepage": "https://github.com/David-Buchukuri/time-diff-for-humans#readme"
+}
