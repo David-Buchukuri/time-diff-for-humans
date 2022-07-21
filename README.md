@@ -24,19 +24,19 @@ const timeDiff = require("time-diff-for-humans");
 <strong>examples</strong>
 
 ```sh
-timeDiff('2022-07-21 12:28:57'); // '7 hours ago'
+timeDiff('2022-07-21 12:28:57'); // returns '7 hours ago'
 ```
 
 ```sh
-timeDiff("2022-07-21 19:28:57"); //returns '58 minutes ago'
+timeDiff("2022-07-21 19:28:57"); // '58 minutes ago'
 ```
 
 ```sh
-timeDiff("2022-03-21"); //returns '4 months ago'
+timeDiff("2022-03-21"); // '4 months ago'
 ```
 
 ```sh
-timeDiff("2021-03-21"); //returns '1 year ago'
+timeDiff("2021-03-21"); // '1 year ago'
 ```
 
 <br>
