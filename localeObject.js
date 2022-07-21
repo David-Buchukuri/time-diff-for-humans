@@ -53,6 +53,7 @@ const localeObject = {
       ka: "წლის",
     },
   },
+  supportedLocales: ["en", "ka"],
 };
 
 module.exports = localeObject;

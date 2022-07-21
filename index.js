@@ -18,6 +18,10 @@ const timeDiffForHumans = (dateString, locale = "en") => {
     throw new Error("entered date is greater that current date");
   }
 
+  if (!localeObject.supportedLocales.includes(locale)) {
+    throw new Error("entered locale is not supported");
+  }
+
   let diff = Math.abs(nowTime - enteredTime);
 
   let minutes = Math.floor(diff / 1000 / 60);
