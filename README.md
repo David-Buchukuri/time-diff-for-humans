@@ -15,7 +15,8 @@ import
 
 ```sh
 const timeDiff = require("time-diff-for-humans");
-
+or
+import timeDiff from "time-diff-for-humans";
 ```
 
 <br>
