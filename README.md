@@ -1,6 +1,6 @@
 # time-diff-for-humans
 
-get difference between 2 dates in a human readable format, in javascript
+get difference between a time and the current time in a human readable format
 
 ### Getting Started
 
